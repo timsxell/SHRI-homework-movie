@@ -1,0 +1,76 @@
+.bigFilmCard {
+    display: flex;
+    margin: 0 2% 2% 2%;
+    width: 96%;
+    /*height: 553px;*/
+    padding: 24px;
+    align-items: flex-start;
+    gap: 32px;
+  
+    border-radius: 8px;
+    background: #FFF;
+  }
+  
+  .bigFilmCard .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+  }
+  
+  .bigFilmCard .info .infoUp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+  
+  .bigFilmCard .info .infoUp .headingAndTicketButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .bigFilmCard .info .infoUp .headingAndTicketButtons h2 {
+    color: #1B1F23;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  
+  .bigFilmCard .info .infoUp .infoPoints {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .bigFilmCard .info .infoUp .infoPoints p {
+    color: #1B1F23;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .bigFilmCard .info .infoDown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+  
+  .bigFilmCard .info .infoDown .descHeading {
+    color: #1B1F23;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .bigFilmCard .info .infoDown .descText {
+    color: #1B1F23;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  

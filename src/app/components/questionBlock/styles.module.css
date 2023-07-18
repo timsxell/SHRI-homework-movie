@@ -1,0 +1,40 @@
+/* .svgWrapper? */
+
+
+.questionSmall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+  
+    margin: 0 2% 1% 2%;
+    width: 96%;
+    border-radius: 8px;
+    background: #FFF
+  }
+  
+  .questionBig {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  
+    margin: 0 2% 1% 2%;
+    width: 96%;
+    border-radius: 8px;
+    background: #FFF
+  }
+  
+  .questionBig>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .questionBig p {
+    margin: 16px 0 0 0;
+  }
+  
+  .questionSmall h2,
+  .questionBig h2 {
+    margin: 0;
+  }

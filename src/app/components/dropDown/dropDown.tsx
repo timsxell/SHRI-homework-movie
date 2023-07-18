@@ -1,5 +1,5 @@
 'use client'
-import styles from './page.module.css'
+import styles from './styles.module.css'
 import { useState } from 'react';
 import Select from 'react-select'
 

@@ -1,0 +1,14 @@
+.mainPageContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  } 
+
+  .filmInfoPageContentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-top: 100px;
+  }

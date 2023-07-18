@@ -1,0 +1,26 @@
+.ticketCountButtons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    width: 80px;
+    margin-right: 12px;
+  
+  }
+  
+  
+  .ticketCountButtons button {
+    width: 20px;
+    height: 20px;
+    background-color: #F50;
+    color: #FFF;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .ticketCountButtons div {
+    font-size: 20px;
+  }

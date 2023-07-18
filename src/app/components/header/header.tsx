@@ -1,5 +1,5 @@
-import styles from './page.module.css'
-import { BasketIcon } from './icons'
+import styles from './styles.module.css'
+import { BasketIcon } from '../icons'
 import Link from 'next/link'
 
 export default function Header({

@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+import styles from './styles.module.css'
 import Image from 'next/image';
 //import profilePic from '../../public/profile_unavailable.jpeg'
 
@@ -12,7 +12,7 @@ export default function ReviewCard({
     name: string,
     rating: number,
     text: string,
-    profilePicture: string,
+    profilePicture: any,
     id: string
 }){
 

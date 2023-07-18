@@ -1,11 +1,10 @@
-.questionSmall,
-.questionBig,
-.footer,
-.header {
-  box-sizing: border-box;
-}
+.mainPageContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+} 
 
-.questionPageContentContainer {
+.mainPageContentContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,12 +13,31 @@
   padding-top: 100px;
 }
 
-.questionsAndAnswersCard {
+.mainPageCatalogContainer {
+  width: 80%;
+}
+
+.sideSearch {
+  display: flex;
+  width: 30%;
+  height: 100wh;
+  padding: 24px;
+  margin: 20px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  flex: 2;
+}
+
+/* .questionsAndAnswersCard {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px;
-
+  
   margin: 2% 2% 2% 2%;
   width: 96%;
   border-radius: 8px;
@@ -31,14 +49,14 @@
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
-}
+} */
 
-.questionSmall {
+/* .questionSmall {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px;
-
+  
   margin: 0 2% 1% 2%;
   width: 96%;
   border-radius: 8px;
@@ -49,7 +67,7 @@
   display: flex;
   flex-direction: column;
   padding: 24px;
-
+  
   margin: 0 2% 1% 2%;
   width: 96%;
   border-radius: 8px;
@@ -62,9 +80,6 @@
   align-items: center;
 }
 
-.questionBig>div>div.svgWrapper {}
-
-
 .questionBig p {
   margin: 16px 0 0 0;
 }
@@ -72,9 +87,9 @@
 .questionSmall h2,
 .questionBig h2 {
   margin: 0;
-}
+} */
 
-.footer {
+/* .footer {
   display: flex;
   padding: 32px;
   justify-content: space-between;
@@ -91,9 +106,9 @@
 
 .footer a:hover {
   text-decoration: underline;
-}
+} */
 
-.header {
+/* .header {
   display: flex;
   position: fixed;
   top: 0;
@@ -104,7 +119,7 @@
   align-items: center;
   background-color: #333;
   margin: 0 0 24px 0;
-
+  
 }
 
 .header h1 {
@@ -128,17 +143,18 @@
   background-color: #F50;
   border-radius: 8px;
   color: #FFF;
-}
+} */
 
+/* 
 .bigFilmCard {
   display: flex;
   margin: 0 2% 2% 2%;
   width: 96%;
-  /*height: 553px;*/
+  /*height: 553px;
   padding: 24px;
   align-items: flex-start;
   gap: 32px;
-
+  
   border-radius: 8px;
   background: #FFF;
 }
@@ -204,9 +220,9 @@
   color: #1B1F23;
   font-size: 16px;
   line-height: 24px;
-}
+} */
 
-.reviewCard {
+/* .reviewCard {
   display: flex;
   padding: 24px;
   align-items: flex-start;
@@ -243,9 +259,9 @@
   color: var(--text-primary, #1B1F23);
   font-size: 16px;
   line-height: 24px;
-}
+} */
 
-.aboutUsCard {
+/* .aboutUsCard {
   display: flex;
   padding: 24px;
   flex-direction: column;
@@ -254,9 +270,9 @@
   border-radius: 8px;
   background: #FFF;
   gap: 16px;
-}
+} */
 
-.basketPageContentContainer {
+/* .basketPageContentContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -267,9 +283,9 @@
 
 .basketPageCatalogContainer {
   width: 100%;
-}
+} */
 
-.filmInfoPageContentContainer {
+/* .filmInfoPageContentContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -277,27 +293,19 @@
   overflow-y: auto;
   padding-top: 100px;
 }
+*/
 
-.mainPageContainer {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.mainPageContentContainer {
+/* .questionPageContentContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-grow: 1;
   overflow-y: auto;
   padding-top: 100px;
-}
+} */
 
-.mainPageCatalogContainer {
-  width: 80%;
-}
 
-.totalTiketsCard {
+/* .totalTiketsCard {
   display: flex;
   padding: 24px;
   align-items: center;
@@ -312,9 +320,9 @@
 
 .totalTiketsCardText {
   font-weight: bold;
-}
+} */
 
-.filmCardInShoppingCart {
+/* .filmCardInShoppingCart {
   display: flex;
   padding: 24px;
   align-items: flex-start;
@@ -353,26 +361,10 @@
   color: var(--text-primary, #1B1F23);
   font-size: 16px;
   line-height: 20px;
-}
+} */
 
 
-.sideSearch {
-  display: flex;
-  width: 30%;
-  height: 100wh;
-  padding: 24px;
-  margin: 20px 20px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  background: #FFF;
-  flex: 2;
-}
-
-
-.filterElement {
+/* .filterElement {
   margin-bottom: 16px;
 }
 
@@ -433,13 +425,13 @@
 
 .dropdownItem:hover {
   backgroung: #fcfcfc;
-}
+} */
 
-.closeIconContainer {
+/* .closeIconContainer {
   display: inline-flex;
-}
+} */
 
-.ticketCountButtons {
+/* .ticketCountButtons {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -464,7 +456,7 @@
 
 .ticketCountButtons div {
   font-size: 20px;
-}
+} */
 
 /* .dropdown {
   position: absolute;

@@ -1,7 +1,7 @@
 //import component minus/plus ticket buttons
-import styles from './page.module.css'
+import styles from './styles.module.css'
 import Image from 'next/image';
-import TicketCountButtons from './ticketCountButtons'
+import TicketCountButtons from '../ticketCountButtons/ticketCountButtons'
 
 export default function BigFilmCard({
     id,

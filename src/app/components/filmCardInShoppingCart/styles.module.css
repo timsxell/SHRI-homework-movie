@@ -1,0 +1,44 @@
+.filmCardInShoppingCart {
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #ffffffbb;
+    margin: 20px 20px;
+  }
+  
+  .filmCardInShoppingCart .filmInfoAndTickets {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+    justify-content: space-between;
+  
+  }
+  
+  .filmCardInShoppingCart .filmInfoAndTickets>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+  
+  .filmCardInShoppingCart .filmInfoAndTickets .filmName {
+    color: var(--text-primary, #1B1F23);
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  .filmCardInShoppingCart .filmInfoAndTickets .genre {
+    color: var(--text-primary, #1B1F23);
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .closeIconContainer {
+    display: inline-flex;
+  }

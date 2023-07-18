@@ -1,7 +1,8 @@
 'use client'
 
 
-import styles from './page.module.css'
+import styles from './styles.module.css'
+//.svgWrapper?
 import React, { useState } from 'react';
 
 

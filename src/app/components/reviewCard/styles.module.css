@@ -1,0 +1,38 @@
+.reviewCard {
+    display: flex;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 0 2% 2% 2%;
+    width: 96%;
+  }
+  
+  .reviewCard .reviewInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+  
+  .reviewCard .reviewInfo .nameAndRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .reviewCard .reviewInfo .nameAndRating p {
+    color: var(--text-primary, #1B1F23);
+    font-size: 20px;
+    line-height: 32px;
+  }
+  
+  .reviewCard .reviewInfo .reviewText {
+    color: var(--text-primary, #1B1F23);
+    font-size: 16px;
+    line-height: 24px;
+  }

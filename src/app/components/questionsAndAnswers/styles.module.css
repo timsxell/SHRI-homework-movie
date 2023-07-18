@@ -1,0 +1,18 @@
+.questionsAndAnswersCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+  
+    margin: 2% 2% 2% 2%;
+    width: 96%;
+    border-radius: 8px;
+    background: #FFF
+  }
+  
+  .questionsAndAnswersText {
+    color: var(--text-primary, #1B1F23);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+  }

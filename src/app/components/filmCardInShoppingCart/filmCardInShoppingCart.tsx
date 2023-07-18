@@ -1,8 +1,8 @@
-import styles from './page.module.css'
+import styles from './styles.module.css'
 import Image from 'next/image';
-import { CloseIcon } from './icons';
+import { CloseIcon } from '../icons';
 import Link from 'next/link';
-import TicketCountButtons from './ticketCountButtons'
+import TicketCountButtons from '../ticketCountButtons/ticketCountButtons'
 
 export default function FilmCardInShoppingCart({
     id,

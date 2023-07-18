@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 //import { useGetMovieQuery, useGetMoviesQuery } from "@/redux/services/movieApi";
 import { shoppingCartActions } from "@/redux/features/shoppingCart";
 import { selectTicketAmount } from "@/redux/features/shoppingCart/selector"
-import styles from './page.module.css'
+import styles from './styles.module.css'
 
 export function TicketCount({
     movieId
