@@ -1,0 +1,1 @@
+export const selectFilterModule = (state) => state.filter;
