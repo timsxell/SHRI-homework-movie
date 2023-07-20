@@ -1,20 +1,13 @@
 'use client'
 
-//TODO: change mocked count prop in header
-
 import Image from 'next/image'
 import styles from './page.module.css'
-import QuestionBlock from './components/questionBlock/questionBlock'
-import Footer from './components/footer/footer'
-import Header from './components/header/header'
+
 import BigFilmCard from './components/bigFilmCard/bigFilmCard'
-import ReviewCard from './components/reviewCard/reviewCard'
-import AboutUsCard from './components/aboutUsCard/aboutUsCard'
 import FilmCardInShoppingCart from './components/filmCardInShoppingCart/filmCardInShoppingCart'
 import DropDown from './components/dropDown/dropDown'
 import FilmCardInMain from './components/filmCardInMain/filmCardInMain'
 
-import {movies} from "@/data/movies"
 import {movieApi, useGetMoviesQuery} from "@/redux/services/movieApi"
 
 
@@ -37,7 +30,6 @@ export default function Home() {
   if(data){
   return (
     <div className={styles.mainPageContainer}>
-      <Header color='#FFF'/>
       <div className={styles.mainPageContentContainer}>
         <div className={styles.sideSearch}>
           {/* cistom dropdown menu */}
@@ -53,7 +45,6 @@ export default function Home() {
         </div>
         
       </div>
-      <Footer/>
     </div>
   )}
 }
