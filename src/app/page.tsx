@@ -37,7 +37,7 @@ export default function Home() {
   if(data){
   return (
     <div className={styles.mainPageContainer}>
-      <Header count={5} color='#FFF'/>
+      <Header color='#FFF'/>
       <div className={styles.mainPageContentContainer}>
         <div className={styles.sideSearch}>
           {/* cistom dropdown menu */}

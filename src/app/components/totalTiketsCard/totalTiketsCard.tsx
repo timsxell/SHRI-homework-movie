@@ -6,11 +6,7 @@ import { useSelector } from "react-redux";
 
 
 
-export default function TotalTiketsCard({
-    totalNumber,
-} : {
-    totalNumber: number,
-}){
+export default function TotalTiketsCard(){
 
     const totalAmount = useSelector((state) => selectTotalTicketsAmount(state));
 

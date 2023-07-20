@@ -16,7 +16,7 @@ import {movies} from "@/data/movies"
 export default function Home() {
   return (
     <div className={styles.mainPageContainer}>
-      <Header count={5} color='#FFF'/>
+      <Header color='#FFF'/>
       <div className={styles.basketPageContentContainer}>
         <div className={styles.basketPageCatalogContainer}>
           <FilmCardInShoppingCart id={movies[0].id} filmName={movies[0].title} genre={movies[0].genre} image={movies[0].posterUrl} />
@@ -25,7 +25,7 @@ export default function Home() {
           
         </div>
       </div>
-      <TotalTiketsCard totalNumber = {8}/>
+      <TotalTiketsCard />
       <Footer/>
     </div>
   )}
