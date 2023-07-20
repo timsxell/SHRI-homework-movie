@@ -1,5 +1,7 @@
 'use client'
 
+//TODO: change mocked count prop in header
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import QuestionBlock from './components/questionBlock/questionBlock'
